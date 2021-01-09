@@ -11,6 +11,8 @@
 		6849B16225AA53B800B2BF0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849B16125AA53B800B2BF0B /* ContentView.swift */; };
 		6849B16425AA53B900B2BF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6849B16325AA53B900B2BF0B /* Assets.xcassets */; };
 		6849B16725AA53B900B2BF0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6849B16625AA53B900B2BF0B /* Preview Assets.xcassets */; };
+		6849B17025AA555800B2BF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849B16F25AA555800B2BF0B /* AppDelegate.swift */; };
+		68ADC1FC25AA5DD800D028B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68ADC1FB25AA5DD800D028B0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6849B16325AA53B900B2BF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6849B16625AA53B900B2BF0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6849B16825AA53B900B2BF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6849B16F25AA555800B2BF0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68ADC1FB25AA5DD800D028B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		6849B15325AA53B800B2BF0B = {
 			isa = PBXGroup;
 			children = (
+				68ADC1FB25AA5DD800D028B0 /* GoogleService-Info.plist */,
+				6849B16F25AA555800B2BF0B /* AppDelegate.swift */,
 				6849B15E25AA53B800B2BF0B /* Resolutte */,
 				6849B15D25AA53B800B2BF0B /* Products */,
 			);
@@ -128,6 +134,7 @@
 			files = (
 				6849B16725AA53B900B2BF0B /* Preview Assets.xcassets in Resources */,
 				6849B16425AA53B900B2BF0B /* Assets.xcassets in Resources */,
+				68ADC1FC25AA5DD800D028B0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6849B17025AA555800B2BF0B /* AppDelegate.swift in Sources */,
 				6849B16225AA53B800B2BF0B /* ContentView.swift in Sources */,
 				6849B16025AA53B800B2BF0B /* ResolutteApp.swift in Sources */,
 			);
