@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,6 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682A437F25AA6391003B1278 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6849B15325AA53B800B2BF0B = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +72,7 @@
 		6849B15E25AA53B800B2BF0B /* Resolutte */ = {
 			isa = PBXGroup;
 			children = (
+				682A437F25AA6391003B1278 /* Models */,
 				6849B15F25AA53B800B2BF0B /* ResolutteApp.swift */,
 				6849B16125AA53B800B2BF0B /* ContentView.swift */,
 				6849B16325AA53B900B2BF0B /* Assets.xcassets */,
@@ -96,7 +104,6 @@
 				BDE672C23AFDDC6616764459 /* Pods-Resolutte.debug.xcconfig */,
 				C34D603AD060BAFB7629F310 /* Pods-Resolutte.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
